@@ -104,4 +104,10 @@ form {
     font-size: 0.875rem; 
   } 
   }
-
+  
+  .center {
+    border: 5px;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+  }
