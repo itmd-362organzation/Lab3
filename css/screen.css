@@ -1,0 +1,84 @@
+/* Set the base font size and line height */
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  }
+  
+  /* Calculate the modular scale based on the base font size */
+  h1 {
+    font-size: calc(1rem * 3); /* 48px */
+    margin-bottom: calc(1rem * 0.5); /* 8px */
+    text-align: center;
+  }
+  
+  
+  p {
+    font-size: 1rem; /* 16px */
+    margin-bottom: calc(1rem * 1); /* 16px */
+    text-align: center;
+  }
+  
+  /* Set the baseline grid based on the line height */
+  body {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, calc(1em * 1.5)); /* 24px */
+    grid-gap: 0;
+    background-color: hsl(0, 0%, 39%);
+    
+    
+  }
+  
+  /* Add padding to the top and bottom of each grid cell */
+  body > * {
+    padding-top: calc(1rem * 0.5); /* 8px */
+    padding-bottom: calc(1rem * 0.5); /* 8px */
+  }
+/* Apply styles for all screen sizes */
+form {
+    margin: 0 auto;
+    max-width: 400px;
+   
+  }
+  
+  input[type="age-verification"],
+  input[type="email"],
+  textarea {
+    display: block;
+    width: 50%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: hsl(210, 1%, 57%);
+    color: #fff9f9;
+  }
+  /*mobile-scale /
+  /* Apply different styles for screens smaller than 768px */
+  @media screen and (max-width: 767px) {
+    form {
+      max-width: 100%;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="submit"],
+    textarea {
+      font-size: 0.875rem; /* 14px */
+    }
+  
+}
