@@ -104,10 +104,18 @@ form {
     font-size: 0.875rem; 
   } 
   }
-  
-  .center {
-    border: 5px;
-    margin: auto;
-    width: 30%;
-    padding: 10px;
-  }
+
+  .login-form {
+    max-width: 375px;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    /* -webkit-transform: translate(-50%,-50%); */
+    -o-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    width: 100%;
+    display: block;
+}
