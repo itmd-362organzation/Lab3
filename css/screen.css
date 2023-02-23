@@ -102,8 +102,10 @@ form {
   textarea {
     font-size: 0.875rem; /* 14px */
   } 
-  #dob_inp, #email_inp, #phone_inp {
-    width: 13rem;
+   /* For mobile phones: */
+   [class*="col-"] {
+    width: 100%;
+
   }
   }
 
