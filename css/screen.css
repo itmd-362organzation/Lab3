@@ -5,3 +5,22 @@ html {
   
    }
 
+label {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  width: 97%;
+  margin: 0 1.5%;
+}
+
+input {
+  box-sizing: border-box;
+  width:97%;
+  padding: 12px 20px;
+  margin: 8px 1.5%;
+  border-radius: 6px;
+}
+
+.fontsize {
+  font-size: 1.3em;
+}
