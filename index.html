@@ -7,12 +7,10 @@
   <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
-
 <body>
 <main id="content">
-<div class="center"></div>
-  <div class="login-form-section"></div>
-  <form method="get" action="#null">
+  <form method="get" action="#null" autocomplete="on">
+    <div id="container">
     <h1>Secret Diabetes Newsletter</h1>
     <p>
       Sign up and learn 5 secrets to fight Diabetes!
@@ -27,15 +25,15 @@
         <label for="age-verification">I am over 18 years old</label>
       </li>
       <li id="input-submit">
-        <input type="submit" name="submit" id="submit" value="Subscribe" />
+        <div id="submit">
+          <input type="submit" name="submit" id="submit" value="Subscribe" />
+        </div>
       </li>
     </ol>
+    </div>
   </form>
-  </div>
-</div>
 </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/site.js"></script>
 </body>
-
 </html>
