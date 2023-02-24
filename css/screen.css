@@ -72,7 +72,7 @@ input[type="text"], input[type="email"], textarea {
   background-color: #f9f9f9;
 }
 
-input[type="submit"] {
+input[type="submit-form"] {
   background-color: #f1f1f1;
   color: #333;
   padding: 10px 20px;
@@ -82,6 +82,6 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+input[type="submit-form"]:hover {
   background-color: #e3e3e3;
 }
